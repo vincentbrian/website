@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/colorbox.css">
+
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/packery.pkgd.min.js"></script>
+  <script src="js/jquery.colorbox-min.js"></script>
+
+
+</head>
+
+<body>
+
+<header>
+  <div id="logo">
+    <a href="index.html">
+      <img src="images/vincent2.jpg">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <a href="portfolio.html">Portfolio</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="projects.html">Projects</a>
+      </li>
+      <li>
+        <a class="email" href="mailto:vincentbrian.design@gmail.com">vincentbrian.design@gmail.com</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<h1>My Work</h1>
+
+<div id="container">
+
+
+<a href="imagebig/jordanair1.jpg"  class="item"><img src="imagesmall/jordanair1_small.jpg"></a>
+<a href="imagebig/vincent_brainchip.jpg" class="item"><img src="imagesmall/vincent_brainchip.jpg"></a>
+<a href="imagebig/vincent_cube.jpg" class="item"><img src="imagesmall/vincent_cube.jpg"></a>
+<a href="imagebig/kendrick-copy.jpg" class="item"><img src="imagesmall/kendrick-copy.jpg"></a>
+<a href="imagebig/kendrickcolor.jpg"  class="item"><img src="imagesmall/kendrickcolor_small.jpg"></a>
+
+<a href="imagebig/skullink.jpg" class="item"><img src="imagesmall/skullink.jpg"></a>
+<a href="imagebig/portraitdraw.jpg" class="item"><img src="imagesmall/portraitdraw.jpg"></a>
+
+<a href="imagebig/rangerlarge6.jpg" class="item"><img src="imagesmall/rangerlarge6.jpg"></a>
+<a href="imagebig/skullcreative.jpg" class="item"><img src="imagesmall/skullcreative.jpg"></a>
+<a href="imagebig/tivector.jpg" class="item"><img src="imagesmall/tivector.jpg"></a>
+<a href="imagebig/jakevector.jpg" class="item"><img src="imagesmall/jakevector.jpg"></a>
+<a href="imagebig/Jordan13's.jpg"  class="item"><img src="imagesmall/Jordan13's_small.jpg"></a>
+<a href="imagebig/Prudential_Starry_Night.jpg" class="item"><img src="imagesmall/b_skyline.jpg"></a>
+<a href="imagebig/Jordan_6sTouch.jpg" class="item"><img src="imagesmall/Jordan_6sTouch.jpg"></a>
+
+<a href="imagebig/armstudy.jpg" class="item"><img src="imagesmall/armstudysmall.jpg"></a>
+<a href="imagebig/Vincent01.jpg" class="item"><img src="imagesmall/Vincent01.jpg"></a>
+<a href="imagebig/Vincent02.jpg" class="item"><img src="imagesmall/Vincent02.jpg"></a>
+<a href="imagebig/Vincent03.jpg" class="item"><img src="imagesmall/Vincent03.jpg"></a>
+<a href="imagebig/Vincent04.jpg" class="item"><img src="imagesmall/Vincent04.jpg"></a>
+<a href="imagebig/Vincent05.jpg" class="item"><img src="imagesmall/Vincent05.jpg"></a>
+<a href="imagebig/DarthMal_275x419.jpg" class="item"><img src="imagesmall/Vincent07.jpg"></a>
+<a href="imagebig/Vincent08.jpg" class="item"><img src="imagesmall/Vincent08.jpg"></a>
+<a href="imagebig/Vincent09.jpg" class="item"><img src="imagesmall/Vincent09.jpg"></a>
+<a href="imagebig/Vincent10.jpg" class="item"><img src="imagesmall/Vincent10.jpg"></a>
+<a href="imagebig/kidccudi_300x462.jpg" class="item"><img src="imagesmall/Vincent12.jpg"></a>
+<a href="imagebig/Vincent13_300x443.jpg" class="item"><img src="imagesmall/Vincent13.jpg"></a>
+<!-- <img class="item" src="imagesmall/Vincent14.jpg"> -->
+<a href="imagebig/Vincent15.jpg" class="item"><img src="imagesmall/Vincent15s.jpg"></a>
+<a href="imagebig/Vincent16.jpg" class="item"><img src="imagesmall/Vincent16.jpg"></a>
+<a href="imagebig/wiz_425x316.jpg" class="item"><img src="imagesmall/Vincent18.jpg"></a>
+<a href="imagebig/Vincent19.jpg" class="item"><img src="imagesmall/Vincent19.jpg"></a>
+<a href="imagebig/Vincent20.jpg" class="item"><img src="imagesmall/Vincent20.jpg"></a>
+<a href="imagesmall/Rayforjay400x299.jpg" class="item"><img src="imagebig/Rayforjay400x299.jpg"></a>
+<a href="imagebig/nikki_410x305.jpg" class="item"><img src="imagesmall/nikki_350x260.jpg"></a>
+<a href="imagebig/Vincent08.jpg" class="item"><img src="imagesmall/Vincent08.jpg"></a>
+<a href="imagebig/MJordan.jpg" class="item"><img src="imagesmall/MJordan_small.jpg"></a>
+<a href="imagebig/ness_small.jpg" class="item"><img src="imagesmall/ness.jpg"></a>
+<a href="imagebig/anatomy_muscle.jpg" class="item"><img src="imagesmall/anatomy_muscle_small.jpg"></a>
+<a href="imagebig/Prudential_Sky.jpg" class="item"><img src="imagesmall/Prudential_Sky_small.jpg"></a>
+</div>
+
+
+
+
+
+<script>
+$(document).ready(function() {
+  var $container = $('#container').imagesLoaded( function() {
+    // initialize Packery after all images have loaded
+    $container = $('#container').packery({
+        itemSelector: '.item',
+        gutter: 10
+    });
+  });
+
+  $('.item').colorbox({
+    maxWidth:'80%',
+    maxHeight:'80%',
+    opacity:'0.6',
+    href: true
+  });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,257 @@
+html {
+
+}
+
+body {
+	margin:0px;
+	text-align:center;
+	background:url(../images/honey_comb.jpg);
+	background-opacity:.5%;
+}
+#container {
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+h1, h2, h3,  {
+	font-family: 'Lato', sans-serif;
+	/*margin:1em 0 .2em 0;*/
+}
+
+h4 {
+	word-spacing: .5px;
+	letter-spacing: .5px;
+	line-height: 1.2;
+	padding:0px 50px 0px 50px;
+}
+
+#logo img {
+	image:linear-gradient(grey 5%,black,black );
+	background:transparent;
+	border: solid 5px black;
+	float:left;
+	height:90px;
+	/*background: url(images/vincent.jpg)  no-repeat;*/
+
+}
+
+/*.splash {
+	image-widtch:1200px;
+	background-color:white;
+}*/
+
+#main-image {
+	position: relative;
+	/*position:absolute;
+	height: 100%;
+	width: 100%;
+	left:0;
+	top:0;*/
+	display:inline-block;
+	/*background: url('../images/websitepagesmall.jpg');
+	background-position: center;
+	background-size: cover;*/
+}
+
+.davinci,.howiegreen,.melmarcelo > img {
+	max-width:100
+}
+
+#main-image > img {
+	max-width: 100px;
+}
+/*
+#projects-link {
+	position:absolute;
+	left:248px; bottom:187px;
+	font-size:32px;
+	color:#16631d;
+	font-family: 'Lato', sans-serif;
+}
+
+#portfolio-link {
+	position:absolute;
+	right:333px; top:229px;
+	font-size:32px;
+	color:#91241d;
+	font-family: 'Lato', sans-serif;
+}
+
+#about-link {
+	position:absolute;
+	rightt:490px; top:20px;
+	font-size:32px;
+	color:#212185;
+	font-family: 'Lato', sans-serif;*/
+
+
+p {
+	max-width: 30em;
+  text-align: center;
+	margin: 1em auto 0 auto;
+	color:black;
+  font-size:1em;
+	font-family: 'Lato', sans-serif;
+}
+
+/*.portfolio img {
+	border: solid 7px #eee;
+
+}*/
+
+li {
+	display:inline;
+	font-size:1.6em;
+	color:lightgrey;
+}
+
+nav {
+	word-spacing:2em;
+	font-family: 'Poiret One', cursive;
+	padding-top:65px;
+	padding-bottom:5px;
+	text-align:center;
+	color:lightgrey;
+	/*background-color:black;*/
+	background:url(../images/honey_comb.jpg);
+	background:linear-gradient(grey 5%,black,black );
+}
+
+
+ul {
+	margin:0;
+	list-style-type:none;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	color: grey;
+	text-decoration:none;
+
+}
+
+/*a:visited {
+	color:white;*/
+}
+
+a:active {
+	text-decoration:none;
+	color:white;
+}
+
+.logo,#logo:hover {
+  opacity: 0.5;
+}
+/*
+.icon-nav {
+  width: 27px;
+  height: 62px;
+  float: right;*/
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   Components
+/
+/
+/
+////////////////////////////*/
+.highlight {
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   Responsive breakpoints
+/   mobile-first responsive breakpoints
+/
+/
+/
+////////////////////////////*/
+@media screen and (max-width: 490px) {
+	#main-image {
+		background:none;
+	}
+
+li {
+	display: block;
+}
+	nav {
+
+		font-family: 'Poiret One', cursive;
+		font-size:60%;
+		padding-top:10px;
+		padding-bottom:5px;
+		text-align:center;
+		color:lightgrey;
+		/*background-color:black;*/
+
+	}
+
+	#logo img {
+		display:none;
+	}
+}
+
+
+@media screen and (max-width:700px){
+
+	body {
+
+		/*margin:0 auto;*/
+		background-image:url(../images/honey_comb.jpg);
+	}
+
+	img {
+
+	}
+
+	#main-image {
+
+	}
+}
+
+
+@media screen and (min-width: 45em) { /* large-screen */
+
+	li {
+		display:inline;
+
+	}
+
+	ul {
+		word-spacing:2em;
+	}
+}
