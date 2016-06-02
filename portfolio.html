@@ -3,122 +3,266 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-
-  <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/colorbox.css">
-
-
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/packery.pkgd.min.js"></script>
-  <script src="js/jquery.colorbox-min.js"></script>
-
-
+  <!-- Vendor CSS -->
+  <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="css/vendor/colorbox.css" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+  <header class="header">
+    <a  class="logo" href="index.html">Vincent</a>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a class="email" href="mailto:vincentbrian.design@gmail.com">
+        E-mail</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-  <div id="logo">
-    <a href="index.html">
-      <img src="images/vincent2.jpg">
-    </a>
+  <div id="portfolio">
+    <div class="banner">
+      <h1>Portfolio</h1>
+    </div>
+      <div class="images">
+
+        <a class="col-md-4" href="images/jordanshoescape.jpg">
+          <img src="imageSmall/jordanshoescape.jpg" class="img-thumb">
+        </a>
+        <a class="col-md-4" href="images/thepru.jpg">
+          <img src="imageSmall/thepru.jpg" class="img-thumb">
+        </a>
+        <a class="col-md-4" href="images/jordanshoescape.jpg">
+          <img src="imageSmall/jordanshoescape.jpg" class="img-thumb">
+        </a>
+        <a class="col-md-4" href="images/jordanshoescape.jpg">
+          <img src="imageSmall/jordanshoescape.jpg" class="img-thumb">
+        </a>
+
+
+      </div>
+    <!-- <div class="packery">
+      <a class="item w2" href="images/jordanshoescape.jpg">
+        <img src="imageSmall/jordanshoescape.jpg" class="img-thumb">
+      </a>
+      <a class="item h2 w2" href="images/jordandribble.jpg">
+        <img src="imageSmall/jordandribble.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/jordanair300res.jpg">
+        <img src="imageSmall/jordanair300res.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/thepru.jpg">
+        <img src="imageSmall/thepru.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/BostonStrong.jpg">
+        <img src="imageSmall/BostonStrong.jpg" class="img-thumb">
+      </a>
+
+      <a class="item w2" href="images/Vincent19.jpg">
+        <img src="imageSmall/Vincent19.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/jakevector.jpg">
+        <img src="imageSmall/jakevector.jpg" class="img-thumb">
+      </a>
+      <a class="item w2 h2" href="images/air1render.jpg">
+        <img src="imageSmall/air1render.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/chicago.jpg">
+        <img src="imageSmall/chicago.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/armstudy.jpg">
+        <img src="imageSmall/armstudy.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/ness.jpg">
+        <img src="imageSmall/ness.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/jordan6.jpg">
+        <img src="imageSmall/jordan6.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/MJordan.jpg">
+        <img src="imageSmall/MJordan.jpg" class="img-thumb">
+      </a>
+      <a class="item h2 w2" href="images/Jordan7.jpg">
+        <img src="imageSmall/Jordan7.jpg" class="img-thumb">
+      </a>
+
+      <a class="item w2" href="images/anatomy_muscle.jpg">
+        <img src="imageSmall/anatomy_muscle.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Vincent04.jpg">
+        <img src="imageSmall/Vincent04.jpg" class="img-thumb">
+      </a>
+      <a class="item w2 h2" href="images/Vincent05.jpg">
+        <img src="imageSmall/Vincent05.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/boston_prudential_view.jpg">
+        <img src="imageSmall/boston_prudential_view.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/bostonpaint2.jpg">
+        <img src="imageSmall/bostonpaint2.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Brian Profile Vector.jpg">
+        <img src="imageSmall/Brian Profile Vector.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/IllustrationV.jpg">
+        <img src="imageSmall/IllustrationV.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Jordan_6sTouch.jpg">
+        <img src="imageSmall/Jordan_6sTouch.jpg" class="img-thumb">
+      </a>
+      <a class="item h2 w2" href="images/Jordan13's.jpg">
+        <img src="imageSmall/Jordan13's.jpg" class="img-thumb">
+      </a>
+
+      <a class="item w2" href="images/jordanair1.jpg">
+        <img src="imageSmall/jordanair1.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/kendrick-copy.jpg">
+        <img src="imageSmall/kendrick-copy.jpg" class="img-thumb">
+      </a>
+      <a class="item w2 h2" href="images/Vincent02.jpg">
+        <img src="imageSmall/Vincent02.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/kendrickcolor.jpg">
+        <img src="imageSmall/kendrickcolor.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Portrait-Cubism.jpg">
+        <img src="imageSmall/Portrait-Cubism.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/rangerlarge6.jpg">
+        <img src="imageSmall/rangerlarge6.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/portraitdraw.jpg">
+        <img src="imageSmall/portraitdraw.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Prudential_Sky.jpg">
+        <img src="imageSmall/Prudential_Sky.jpg" class="img-thumb">
+      </a>
+      <a class="item h2 w2" href="images/Prudential_Starry_Night.jpg">
+        <img src="imageSmall/Prudential_Starry_Night.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Ray for jay.jpg">
+        <img src="imageSmall/Ray for jay.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Skull Ink.jpg">
+        <img src="imageSmall/Skull Ink.jpg" class="img-thumb">
+      </a>
+      <a class="item w2 h2" href="images/Skull-Vector.jpg">
+        <img src="imageSmall/Skull-Vector.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Skull.jpg">
+        <img src="imageSmall/Skull.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/skullcreative.jpg">
+        <img src="imageSmall/skullcreative.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/SkullCrosshatch.jpg">
+        <img src="imageSmall/SkullCrosshatch.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Vincent01.jpg">
+        <img src="imageSmall/Vincent01.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/tivector.jpg">
+        <img src="imageSmall/tivector.jpg" class="img-thumb">
+      </a>
+      <a class="item h2 w2" href="images/vincent_brainchip.jpg">
+        <img src="imageSmall/vincent_brainchip.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Vincent06.jpg">
+        <img src="imageSmall/Vincent06.jpg" class="img-thumb">
+      </a>
+      <a class="item h2 w2" href="images/Vincent07.jpg">
+        <img src="imageSmall/Vincent07.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Vincent08.jpg">
+        <img src="imageSmall/Vincent08.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Vincent14.jpg">
+        <img src="imageSmall/Vincent14.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Vincent10.jpg">
+        <img src="imageSmall/Vincent10.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Vincent12.jpg">
+        <img src="imageSmall/Vincent12.jpg" class="img-thumb">
+      </a>
+      <a class="item h2 w2" href="images/Vincen13.jpg">
+        <img src="imageSmall/Vincent13.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Vincent15.jpg">
+        <img src="imageSmall/Vincent15.jpg" class="img-thumb">
+      </a>
+      <a class="item w2" href="images/Vincent16.jpg">
+        <img src="imageSmall/Vincent16.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Vincent17.jpg">
+        <img src="imageSmall/Vincent17.jpg" class="img-thumb">
+      </a>
+      <a class="item" href="images/Vincent18.jpg">
+        <img src="imageSmall/Vincent18.jpg" class="img-thumb">
+      </a> -->
+
+
+
+    <!-- </div> -->
   </div>
-  <nav>
-    <ul>
-      <li>
-        <a href="portfolio.html">Portfolio</a>
-      </li>
-      <li>
-        <a href="about.html">About</a>
-      </li>
-      <li>
-        <a href="projects.html">Projects</a>
-      </li>
-      <li>
-        <a class="email" href="mailto:vincentbrian.design@gmail.com">vincentbrian.design@gmail.com</a>
-      </li>
-    </ul>
-  </nav>
-</header>
 
-<h1>My Work</h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- <script src="http://packery.metafizzy.co/packery.pkgd.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/jquery.colorbox-min.js"></script>
+  <script src="js/vendor/jquery-imagefill.js"></script>
+  <script>
+    $(function() {
+      $('.item').colorbox({
+        maxWidth: '80%',
+        maxHeight: '80%',
+        opacity: '0.6',
+      });
 
-<div id="container">
+      // var $container = $('.packery').packery({
+      //   itemSelector: '.item',
+      //   columnWidth: 150,
+      //   gutter: 20,
+      //   // disable resize
+      //   isResizeBound: false
+      // });
+      //
+      // var pckry = $container.data('packery');
+      //
+      // var gutter = pckry.options.gutter || 0;
+      // var columnWidth = pckry.options.columnWidth + gutter;
 
+      function onResize() {
+        var outsideSize = getSize($container.parent()[0]).innerWidth;
+        var cols = Math.floor(outsideSize / (columnWidth));
+        // set container width to columns
+        $container.width(cols * columnWidth - gutter)
+          // manually trigger layout
+        $container.packery();
+        // run imagefill inside the resize event, using runOnce
+        $('.item').imagefill({
+          runOnce: false
+        });
+      }
 
-<a href="imagebig/jordanair1.jpg"  class="item"><img src="imagesmall/jordanair1_small.jpg"></a>
-<a href="imagebig/vincent_brainchip.jpg" class="item"><img src="imagesmall/vincent_brainchip.jpg"></a>
-<a href="imagebig/vincent_cube.jpg" class="item"><img src="imagesmall/vincent_cube.jpg"></a>
-<a href="imagebig/kendrick-copy.jpg" class="item"><img src="imagesmall/kendrick-copy.jpg"></a>
-<a href="imagebig/kendrickcolor.jpg"  class="item"><img src="imagesmall/kendrickcolor_small.jpg"></a>
+      // debounce resize event
+      var resizeTimeout;
+      $(window).on('resize', function() {
+        if (resizeTimeout) {
+          clearTimeout(resizeTimeout);
+        }
+        resizeTimeout = setTimeout(onResize, 100);
+      })
 
-<a href="imagebig/skullink.jpg" class="item"><img src="imagesmall/skullink.jpg"></a>
-<a href="imagebig/portraitdraw.jpg" class="item"><img src="imagesmall/portraitdraw.jpg"></a>
-
-<a href="imagebig/rangerlarge6.jpg" class="item"><img src="imagesmall/rangerlarge6.jpg"></a>
-<a href="imagebig/skullcreative.jpg" class="item"><img src="imagesmall/skullcreative.jpg"></a>
-<a href="imagebig/tivector.jpg" class="item"><img src="imagesmall/tivector.jpg"></a>
-<a href="imagebig/jakevector.jpg" class="item"><img src="imagesmall/jakevector.jpg"></a>
-<a href="imagebig/Jordan13's.jpg"  class="item"><img src="imagesmall/Jordan13's_small.jpg"></a>
-<a href="imagebig/Prudential_Starry_Night.jpg" class="item"><img src="imagesmall/b_skyline.jpg"></a>
-<a href="imagebig/Jordan_6sTouch.jpg" class="item"><img src="imagesmall/Jordan_6sTouch.jpg"></a>
-
-<a href="imagebig/armstudy.jpg" class="item"><img src="imagesmall/armstudysmall.jpg"></a>
-<a href="imagebig/Vincent01.jpg" class="item"><img src="imagesmall/Vincent01.jpg"></a>
-<a href="imagebig/Vincent02.jpg" class="item"><img src="imagesmall/Vincent02.jpg"></a>
-<a href="imagebig/Vincent03.jpg" class="item"><img src="imagesmall/Vincent03.jpg"></a>
-<a href="imagebig/Vincent04.jpg" class="item"><img src="imagesmall/Vincent04.jpg"></a>
-<a href="imagebig/Vincent05.jpg" class="item"><img src="imagesmall/Vincent05.jpg"></a>
-<a href="imagebig/DarthMal_275x419.jpg" class="item"><img src="imagesmall/Vincent07.jpg"></a>
-<a href="imagebig/Vincent08.jpg" class="item"><img src="imagesmall/Vincent08.jpg"></a>
-<a href="imagebig/Vincent09.jpg" class="item"><img src="imagesmall/Vincent09.jpg"></a>
-<a href="imagebig/Vincent10.jpg" class="item"><img src="imagesmall/Vincent10.jpg"></a>
-<a href="imagebig/kidccudi_300x462.jpg" class="item"><img src="imagesmall/Vincent12.jpg"></a>
-<a href="imagebig/Vincent13_300x443.jpg" class="item"><img src="imagesmall/Vincent13.jpg"></a>
-<!-- <img class="item" src="imagesmall/Vincent14.jpg"> -->
-<a href="imagebig/Vincent15.jpg" class="item"><img src="imagesmall/Vincent15s.jpg"></a>
-<a href="imagebig/Vincent16.jpg" class="item"><img src="imagesmall/Vincent16.jpg"></a>
-<a href="imagebig/wiz_425x316.jpg" class="item"><img src="imagesmall/Vincent18.jpg"></a>
-<a href="imagebig/Vincent19.jpg" class="item"><img src="imagesmall/Vincent19.jpg"></a>
-<a href="imagebig/Vincent20.jpg" class="item"><img src="imagesmall/Vincent20.jpg"></a>
-<a href="imagesmall/Rayforjay400x299.jpg" class="item"><img src="imagebig/Rayforjay400x299.jpg"></a>
-<a href="imagebig/nikki_410x305.jpg" class="item"><img src="imagesmall/nikki_350x260.jpg"></a>
-<a href="imagebig/Vincent08.jpg" class="item"><img src="imagesmall/Vincent08.jpg"></a>
-<a href="imagebig/MJordan.jpg" class="item"><img src="imagesmall/MJordan_small.jpg"></a>
-<a href="imagebig/ness_small.jpg" class="item"><img src="imagesmall/ness.jpg"></a>
-<a href="imagebig/anatomy_muscle.jpg" class="item"><img src="imagesmall/anatomy_muscle_small.jpg"></a>
-<a href="imagebig/Prudential_Sky.jpg" class="item"><img src="imagesmall/Prudential_Sky_small.jpg"></a>
-</div>
-
-
-
-
-
-<script>
-$(document).ready(function() {
-  var $container = $('#container').imagesLoaded( function() {
-    // initialize Packery after all images have loaded
-    $container = $('#container').packery({
-        itemSelector: '.item',
-        gutter: 10
+      // initial trigger
+      onResize();
     });
-  });
-
-  $('.item').colorbox({
-    maxWidth:'80%',
-    maxHeight:'80%',
-    opacity:'0.6',
-    href: true
-  });
-});
-</script>
-
+  </script>
 </body>
 </html>
