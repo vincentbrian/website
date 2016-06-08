@@ -3,6 +3,8 @@
 html {}
 body {
   font-family: orator std;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  padding-bottom: 40px;
 }
 
 h3 {
@@ -23,13 +25,6 @@ p {
 }
 #home .home-header {
   text-align: center;
-}
-#home .banner {
-  width: 100%;
-  height: 40%;
-  text-align: center;
-  padding-top: 10px;
-  background: grey;
 }
 #home .img-block {
   border: 1px solid black;
@@ -54,13 +49,6 @@ p {
 #about .home-header {
   text-align: center;
 }
-#home .banner {
-  width: 100%;
-  height: 40%;
-  text-align: center;
-  padding-top: 10px;
-  background: grey;
-}
 #about .img-block {
   border: 1px solid black;
 }
@@ -72,10 +60,12 @@ p {
 
 #about .img-block a {
   display: block;
-
 }
 
 /* ------------------------- */
+.home-images-container {
+  padding: 20px 0;
+}
 
 /* ------------ portfolio ------------ */
 
@@ -85,12 +75,25 @@ p {
 #portfolio .portfolio-header {
   text-align: center;
 }
-#portfolio .banner {
-  width: 100%;
-  height: 40%;
-  text-align: center;
-  padding-top: 10px;
-  background: grey;
+
+/* ------------ Img Block ------------ */
+.img-blocks {
+  padding: 20px 0;
+}
+
+.img-block {
+  display: block;
+  padding: 5px;
+
+}
+
+.img-block a {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 300px;
+  border: 1px solid #f7f7f7;
 }
 
 /* ------------------------- */
@@ -121,7 +124,7 @@ p {
   display: inline-block;
   padding: 25px;
   text-decoration: none;
-  text-transform: uppercase;
+  font-weight: 200;
 }
 .header .header-nav li a:hover {
   color: grey;
@@ -149,4 +152,51 @@ p {
 }
 .packery .item.h3 {
 }
-/* ------------------------- */
+
+.packery .item.w2.h2 {
+  width: 320px;
+}
+
+/* ------------ Banner ------------ */
+.banner {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  padding-top: 10px;
+}
+.banner h1 {
+  border-bottom: 1px solid #AEB3B5;
+  display: inline-block;
+  text-align: center;
+  padding: 0 15px 15px;
+  margin-bottom: 30px;
+}
+
+/* ------------ Colorbox ------------ */
+#colorbox {
+
+}
+
+#cboxWrapper {
+
+}
+
+#cboxMiddleLeft, #cboxMiddleRight {
+  display: none;
+}
+
+#cboxTopLeft, #cboxTopCenter, #cboxTopRight {
+  display: none;
+}
+
+#cboxBottomLeft, #cboxBottomCenter, #cboxBottomRight {
+  display: none;
+}
+
+#cboxLoadedContent {
+  margin: 0;
+}
+
+#cboxClose {
+  top: 0;
+}

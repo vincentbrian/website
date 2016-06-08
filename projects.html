@@ -26,64 +26,43 @@
 
   <div id="portfolio">
     <div class="banner">
-      <h1>Pojects</h1>
+      <h1>Projects</h1>
     </div>
 
+    <div class="container">
+      <h3>Children Book Illustration</h3>
 
-    <h3>Children Book Illustration</h3>
+      <p>Children Book Illustration is an illustration class of continueing education
+         program at Massachusetts College of Art and Design. </p>
 
-    <p>Children Book Illustration is an illustration class of continueing education
-       program at Massachusetts College of Art and Design. </p>
+      <h3>Weekly Homework</h3>
 
-    <h3>Weekly Homework</h3>
+      <div id="projects">
+      <a href="projects/catbirdbig.jpg" class="item"><img src="projects/catbird.jpg"></a>
+      <a href="projects/babydadbig.jpg" class="item"><img src="projects/babydadsmall.jpg"></a>
+      <a href="projects/kidbeast.jpg" class="item"><img src="projects/kidbeastsmall.jpg"></a>
+      <a href="projects/catbig.jpg" class="item"><img src="projects/catsmall.jpg"></a>
+      </div>
 
-    <div id="projects">
-    <a href="projects/catbirdbig.jpg" class="item"><img src="projects/catbird.jpg"></a>
-    <a href="projects/babydadbig.jpg" class="item"><img src="projects/babydadsmall.jpg"></a>
-    <a href="projects/kidbeast.jpg" class="item"><img src="projects/kidbeastsmall.jpg"></a>
-    <a href="projects/catbig.jpg" class="item"><img src="projects/catsmall.jpg"></a>
+      <h3>Final Project</h3>
+
+      <p>The final project for this illustration class was to create a children's book.
+        The book had to be illustrated in any style you wanted and the story content had
+        to be well thought out and revised. Also, there had to be a minimum of three
+        complete spreads.  The rest of the pages had to be fully drawn out
+        but not colored. The timeline for this project was two weeks.</p>
+
+      <p><a href="projects/jakebook.pdf">No Place like Home</a></p>
+
+      <h3>Nagarote Sister City</h3>
+
+      <p><a href="projects/nagarote2015.pdf"> Nagarote 2015 Booklet</a></p>
     </div>
-
-    <h3>Final Project</h3>
-
-    <p>The final project for this illustration class was to create a children's book.
-      The book had to be illustrated in any style you wanted and the story content had
-      to be well thought out and revised. Also, there had to be a minimum of three
-      complete spreads.  The rest of the pages had to be fully drawn out
-      but not colored. The timeline for this project was two weeks.</p>
-
-    <p><a href="projects/jakebook.pdf">No Place like Home</a></p>
-
-    <h3>Nagarote Sister City</h3>
-
-    <p><a href="projects/nagarote2015.pdf"> Nagarote 2015 Booklet</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="http://packery.metafizzy.co/packery.pkgd.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
       <script src="js/vendor/bootstrap.min.js"></script>
       <script src="js/vendor/jquery.colorbox-min.js"></script>
-      <script src="js/vendor/jquery-imagefill.js"></script>
       <script>
         $(function() {
           $('.item').colorbox({
@@ -91,44 +70,6 @@
             maxHeight: '80%',
             opacity: '0.6',
           });
-
-          var $container = $('.packery').packery({
-            itemSelector: '.item',
-            columnWidth: 150,
-            gutter: 20,
-            // disable resize
-            isResizeBound: false
-          });
-
-          var pckry = $container.data('packery');
-
-          var gutter = pckry.options.gutter || 0;
-          var columnWidth = pckry.options.columnWidth + gutter;
-
-          function onResize() {
-            var outsideSize = getSize($container.parent()[0]).innerWidth;
-            var cols = Math.floor(outsideSize / (columnWidth));
-            // set container width to columns
-            $container.width(cols * columnWidth - gutter)
-              // manually trigger layout
-            $container.packery();
-            // run imagefill inside the resize event, using runOnce
-            $('.item').imagefill({
-              runOnce: false
-            });
-          }
-
-          // debounce resize event
-          var resizeTimeout;
-          $(window).on('resize', function() {
-            if (resizeTimeout) {
-              clearTimeout(resizeTimeout);
-            }
-            resizeTimeout = setTimeout(onResize, 100);
-          })
-
-          // initial trigger
-          onResize();
         });
       </script>
     </body>
