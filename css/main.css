@@ -103,7 +103,7 @@ p {
 
 .header {
   text-align: right;
-  background-color: red;
+  background-color: #1F1E1F;
   display: block;
 }
 .header .logo {
