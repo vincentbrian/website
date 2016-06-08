@@ -101,34 +101,10 @@ p {
 
 /* ------------ Header ------------ */
 
-.header {
-  text-align: right;
-  background-color: #1F1E1F;
-  display: block;
+#header {
+ border-radius: 0;
 }
-.header .logo {
-  float: left;
-  color: white;
-  font-size: 18px;
-  display: inline-block;
-  padding: 25px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.header .header-nav li {
-  display: inline;
-}
-.header .header-nav li a {
-  color: white;
-  font-size: 18px;
-  display: inline-block;
-  padding: 25px;
-  text-decoration: none;
-  font-weight: 200;
-}
-.header .header-nav li a:hover {
-  color: grey;
-}
+
 
 /* ------------------------- */
 
