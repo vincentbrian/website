@@ -98,47 +98,9 @@
       $('.item').colorbox({
         maxWidth: '80%',
         maxHeight: '80%',
-        opacity: '0.6',
+        opacity: '0.9',
       });
 
-      var $container = $('.packery').packery({
-        itemSelector: '.item',
-        columnWidth: 150,
-        gutter: 20,
-        // disable resize
-        isResizeBound: false
-      });
-
-      var pckry = $container.data('packery');
-
-      var gutter = pckry.options.gutter || 0;
-      var columnWidth = pckry.options.columnWidth + gutter;
-
-      function onResize() {
-        var outsideSize = getSize($container.parent()[0]).innerWidth;
-        var cols = Math.floor(outsideSize / (columnWidth));
-        // set container width to columns
-        $container.width(cols * columnWidth - gutter)
-          // manually trigger layout
-        $container.packery();
-        // run imagefill inside the resize event, using runOnce
-        $('.item').imagefill({
-          runOnce: false
-        });
-      }
-
-      // debounce resize event
-      var resizeTimeout;
-      $(window).on('resize', function() {
-        if (resizeTimeout) {
-          clearTimeout(resizeTimeout);
-        }
-        resizeTimeout = setTimeout(onResize, 100);
-      })
-
-      // initial trigger
-      onResize();
-    });
   </script>
 
   </body>
