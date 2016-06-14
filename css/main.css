@@ -27,7 +27,7 @@ p {
   text-align: center;
 }
 #home .img-block {
-  border: 1px solid black;
+  border: 1px solid #f7f7f7;
 }
 #home .img-block div {
   height: 300px;
