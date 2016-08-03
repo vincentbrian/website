@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Vendor CSS -->
   <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
   <link href="css/vendor/colorbox.css" rel="stylesheet">
@@ -11,54 +12,96 @@
 </head>
 
 <body>
-  <header class="header">
-    <a  class="logo" href="index.html">Vincent</a>
-    <nav class="header-nav">
-      <ul>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a class="email" href="mailto:vincentbrian.design@gmail.com">
-        E-mail</a></li>
+  <nav id="header" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Vincent</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="portfolio1.html">Celebrities</a></li>
+            <li role="separator" class="divider"></li>
+            <!-- <li><a href="portfolio2.html">Paint</a></li>
+            <li role="separator" class="divider"></li> -->
+            <li><a href="portfolio3.html">Graphite</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="portfolio4.html">Anatomy</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="portfolio5.html">City Scape</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="portfolio6.html">Shoes</a></li>
+          </ul>
+        <li><a href="about.html">About </a></li>
+        <li><a href="projects.html">Projects </a></li>
+        <li><a class="email" href="mailto:vincentbrian.design@gmail.com">E-mail</a></li>
+
+        </li>
       </ul>
-    </nav>
-  </header>
+
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
 
   <div id="home">
     <div class="banner">
       <h1>paint</h1>
     </div>
-    <div class="packery">
-      <a class="item w2" href="images/Vincent18.jpg">
-        <img src="images/Vincent18.jpg" class="img-thumb">
-      </a>
-      <a class="item" href="images/Vincent12.jpg">
-        <img src="images/Vincent12.jpg" class="img-thumb">
-      </a>
-      <a class="item w2 h2" href="images/Vincent07.jpg">
-        <img src="images/Vincent07.jpg" class="img-thumb">
-      </a>
-      <a class="item" href="images/Vincent15.jpg">
-        <img src="images/Vincent15.jpg" class="img-thumb">
-      </a>
-      <a class="item w2" href="images/Vincent14.jpg">
-        <img src="images/Vincent14.jpg" class="img-thumb">
-      </a>
-      <a class="item" href="images/Vincent10.jpg">
-        <img src="images/Vincent10.jpg" class="img-thumb">
-      </a>
-      <a class="item" href="images/Vincent02.jpg">
-        <img src="images/Vincent02.jpg" class="img-thumb">
-      </a>
-      <a class="item w2" href="images/Vincent04.jpg">
-        <img src="images/Vincent04.jpg" class="img-thumb">
-      </a>
-      <a class="item w2" href="images/Vincent05.jpg">
-        <img src="images/Vincent05.jpg" class="img-thumb">
-      </a>
-    </div>
-  </div>
 
+    <div class="container">
+      <div class="img-blocks">
+        <div class="row">
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent18.jpg"  style="background-image: url('imageSmall/Vincent18.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent12.jpg"  style="background-image: url('imageSmall/Vincent12.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent07.jpg"  style="background-image: url('imageSmall/Vincent07.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent15.jpg"  style="background-image: url('imageSmall/Vincent15.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent14.jpg"  style="background-image: url('imageSmall/Vincent14.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent10.jpg"  style="background-image: url('imageSmall/Vincent10.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent02.jpg"  style="background-image: url('imageSmall/Vincent02.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent04.jpg"  style="background-image: url('imageSmall/Vincent04.jpg')">
+            </a>
+          </div>
+          <div class="img-block col-sm-3">
+            <a href="images/Vincent05.jpg"  style="background-image: url('imageSmall/Vincent05.jpg')">
+            </a>
+          </div>
 
 
 
@@ -66,57 +109,17 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://packery.metafizzy.co/packery.pkgd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/vendor/jquery.colorbox-min.js"></script>
-  <script src="js/vendor/jquery-imagefill.js"></script>
   <script>
     $(function() {
-      $('.item').colorbox({
+      $('.img-block a').colorbox({
         maxWidth: '80%',
         maxHeight: '80%',
-        opacity: '0.6',
+        opacity: '0.9',
       });
-
-      var $container = $('.packery').packery({
-        itemSelector: '.item',
-        columnWidth: 150,
-        gutter: 20,
-        // disable resize
-        isResizeBound: false
-      });
-
-      var pckry = $container.data('packery');
-
-      var gutter = pckry.options.gutter || 0;
-      var columnWidth = pckry.options.columnWidth + gutter;
-
-      function onResize() {
-        var outsideSize = getSize($container.parent()[0]).innerWidth;
-        var cols = Math.floor(outsideSize / (columnWidth));
-        // set container width to columns
-        $container.width(cols * columnWidth - gutter)
-          // manually trigger layout
-        $container.packery();
-        // run imagefill inside the resize event, using runOnce
-        $('.item').imagefill({
-          runOnce: false
-        });
-      }
-
-      // debounce resize event
-      var resizeTimeout;
-      $(window).on('resize', function() {
-        if (resizeTimeout) {
-          clearTimeout(resizeTimeout);
-        }
-        resizeTimeout = setTimeout(onResize, 100);
-      })
-
-      // initial trigger
-      onResize();
     });
+
   </script>
 
   </body>
