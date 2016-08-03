@@ -20,7 +20,7 @@ ul {
 p {
   margin: 50px 50px 50px 50px;
 }
-/* ------------ hoelpers ------------ */
+/* ------------ helpers ------------ */
 
 .uppercase {
   text-transform: uppercase;
@@ -40,6 +40,11 @@ p {
 
 .text-center {
   text-align: center;
+}
+
+/* ------------ nav ------------ */
+.navbar {
+  margin: 0px;
 }
 
 
@@ -62,6 +67,13 @@ p {
 #home .img-block a {
   display: block;
 
+}
+
+.main-image {
+  width: 100%;
+}
+.main-image > img {
+  width: 100%;
 }
 
 /* ------------------------- */
