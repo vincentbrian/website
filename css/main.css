@@ -2,8 +2,10 @@
 
 html {}
 body {
-  font-family: orator std;
-  /*font-family: Helvetica, Arial, sans-serif;*/
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+
   padding-bottom: 40px;
 }
 
@@ -18,6 +20,28 @@ ul {
 p {
   margin: 50px 50px 50px 50px;
 }
+/* ------------ hoelpers ------------ */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.font-bold {
+  font-weight: 800;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-center {
+  text-align: center;
+}
+
 
 /* ------------ home ------------ */
 #home {
