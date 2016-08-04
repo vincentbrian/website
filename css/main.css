@@ -5,7 +5,7 @@ body {
 
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
-
+  color: black;
   padding-bottom: 40px;
 }
 
@@ -59,14 +59,18 @@ p {
   border: 1px solid #f7f7f7;
 }
 #home .img-block div {
-  height: 300px;
+  height: 250px;
   background-size: cover;
 
 }
 
+.home-images-container .container {
+  /*margin: 0px 20px 0px 20px;*/
+}
+
 #home .img-block a {
   display: block;
-
+  height: 250px;
 }
 
 .main-image {
@@ -76,6 +80,9 @@ p {
   width: 100%;
 }
 
+.links-container  ul {
+  margin-left: :0px;
+}
 .links-container  ul li {
   margin-top: 20px;
   display: inline-block;
@@ -85,11 +92,6 @@ p {
 .links-container  ul li a {
   padding: 15px 20px 15px 20px;
   display: block;
-
-}
-
-.links-container  ul {
-  margin:0px;
 
 }
 
@@ -118,6 +120,8 @@ p {
 /* ------------------------- */
 .home-images-container {
   padding: 20px 0;
+  max-width: 60%;
+  max-height: 60%;
 }
 
 /* ------------ portfolio ------------ */
@@ -184,6 +188,31 @@ p {
 
 .packery .item.w2.h2 {
   width: 320px;
+}
+/* ------------ A ------------ */
+a {
+  color: black;
+}
+/* unvisited link */
+a:link {
+    color:black ;
+}
+
+/* visited link */
+a:visited {
+    color: ;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: ;
 }
 
 /* ------------ Banner ------------ */
