@@ -76,6 +76,23 @@ p {
   width: 100%;
 }
 
+.links-container  ul li {
+  margin-top: 20px;
+  display: inline-block;
+
+}
+
+.links-container  ul li a {
+  padding: 15px 20px 15px 20px;
+  display: block;
+
+}
+
+.links-container  ul {
+  margin:0px;
+
+}
+
 /* ------------------------- */
 
 /* ------------ about ------------ */
