@@ -47,7 +47,7 @@ p {
   margin: 0px;
 }
 .navbar-toggle {
-  background-color: none;
+  background-color: darkgrey;
 }
 
 .navbar-toggle .icon-bar {
