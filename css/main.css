@@ -46,6 +46,13 @@ p {
 .navbar {
   margin: 0px;
 }
+.navbar-toggle {
+  background-color: none;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
 
 
 /* ------------ home ------------ */
