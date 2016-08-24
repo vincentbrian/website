@@ -270,3 +270,12 @@ a:active {
 #cboxClose {
   top: 0;
 }
+
+/* ------------ iPhone screen ------------ */
+
+@media only screen and (max-width : 320px) {
+
+  .main-image {
+    
+  }
+}
