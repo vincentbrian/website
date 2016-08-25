@@ -269,13 +269,16 @@ a:active {
 
 #cboxClose {
   top: 0;
+  background: url("vendor/images/closebutton.png")
 }
+
+
 
 /* ------------ iPhone screen ------------ */
 
 @media only screen and (max-width : 320px) {
 
   .main-image {
-    
+
   }
 }
