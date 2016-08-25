@@ -285,4 +285,9 @@ a:active {
   .main-image {
 
   }
+
+  .links-container ul li a {
+    display: none;
+  }
+
 }
