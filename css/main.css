@@ -272,6 +272,10 @@ a:active {
   background: url("vendor/images/closebutton.png")
 }
 
+#cboxClose:hover {
+      background-position: 25px 25px;
+}
+
 
 
 /* ------------ iPhone screen ------------ */
