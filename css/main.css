@@ -279,15 +279,15 @@ a:active {
 
 
 /* ------------ iPhone screen ------------ */
-
+/*
 @media only screen and (max-width : 320px) {
 
   .main-image {
 
-  }
+  }*/
 
-  .links-container ul li a {
+  /*.links-container ul li a {
     display: none;
-  }
+  }*/
 
 }
