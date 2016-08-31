@@ -218,8 +218,8 @@ a:visited {
 /* mouse over link */
 a:hover {
   text-decoration: none;
-  font-weight: bold;
-    color: black;
+
+    color: lightgrey;
 }
 
 /* selected link */
