@@ -88,8 +88,6 @@ p {
 .main-image > img {
   margin-top: -200px;
   width: 100%;
-
-
 }
 
 .links-container  ul {
@@ -279,15 +277,38 @@ a:active {
 
 
 /* ------------ iPhone screen ------------ */
-/*
+
 @media only screen and (max-width : 320px) {
 
-  .main-image {
+  .main-image> img {
+    height: auto;
+    width: 320px;
+    margin: auto;
+  }
 
-  }*/
+  .main-image {
+    overflow:none;
+    width: 100%;
+    height:auto;
+  }
+
+  .links-container  ul {
+    margin-left: :0px;
+  }
+  .links-container  ul li {
+    margin-top: 20px;
+    display: inline-block;
+
+  }
+
+  .links-container  ul li a {
+    padding: 15px 20px 15px 20px;
+    display: none;
+
+  }
 
   /*.links-container ul li a {
     display: none;
-  }*/
+  }
 
 }
