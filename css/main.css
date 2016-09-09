@@ -274,6 +274,37 @@ a:active {
       background-position: 25px 25px;
 }
 
+/* ------------ overlay ------------ */
+.shoe  {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+}
+
+.shoe:hover a {
+  opacity: 0.3;
+}
+.shoe:hover .shoe-text {
+  visibility: visible;
+  opacity: 1.0;
+}
+
+.shoe a {
+  padding: 0;
+  width: 100%;
+  display: block;
+  opacity: 1;
+}
+
+.shoe a,
+.shoe-text {
+  -webkit-transition: opacity 0.1s ease-out;
+  -moz-transition: opacity 0.1s ease-out;
+  -o-transition: opacity 0.1s ease-out;
+  transition: opacity 0.1s ease-out;
+}
+
+
 
 
 /* ------------ iPhone screen ------------ */
@@ -307,6 +338,11 @@ a:active {
 
   }
 
+@media only screen and (max-width : 750px) {
+
+.main-image > img {
+  margin-top:none;
+}
   /*.links-container ul li a {
     display: none;
   }
