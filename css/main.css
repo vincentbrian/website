@@ -339,7 +339,7 @@ a:active {
 
 /* ------------ iPhone screen ------------ */
 
-@media only screen and (max-width : 380px) {
+@media only screen and (max-width : 400px) {
 
   .main-image> img {
     height: auto;
@@ -367,6 +367,8 @@ a:active {
     display: none;
 
   }
+
+  .selector:not(*:root) {}
 
 /*@media only screen and (max-width : 750px) {*/
 
