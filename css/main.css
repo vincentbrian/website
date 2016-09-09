@@ -276,9 +276,9 @@ a:active {
 
 /* ------------ overlay ------------ */
 .shoe  {
-    background-color: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: black;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
 }
 
 .shoe:hover a {
@@ -305,6 +305,10 @@ a:active {
 }
 
 .shoe-text {
+
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 1.33px;
   position: absolute;
   color: white;
   left: 0;
@@ -314,6 +318,18 @@ a:active {
   font-size: 24px;
   text-align: center;
   opacity: 0;
+  margin: none;
+}
+
+.shoe-text p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.shoe-text h4 {
+  font-family: OpenSans-Bold;
+  font-style: bold;
+  text-transform: uppercase;
 }
 
 
