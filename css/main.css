@@ -341,7 +341,7 @@ a:active {
 
   .main-image> img {
     height: auto;
-    width: 320px;
+    width: 100%;
     margin: auto;
   }
 
@@ -351,14 +351,14 @@ a:active {
     height:auto;
   }
 
-  .links-container  ul {
+  /*.links-container  ul {
     margin-left: :0px;
   }
   .links-container  ul li {
     margin-top: 20px;
     display: inline-block;
 
-  }
+  }*/
 
   .links-container  ul li a {
     padding: 15px 20px 15px 20px;
@@ -366,7 +366,7 @@ a:active {
 
   }
 
-@media only screen and (max-width : 750px) {
+/*@media only screen and (max-width : 750px) {*/
 
 .main-image > img {
   margin-top:none;
