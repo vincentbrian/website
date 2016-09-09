@@ -2,8 +2,10 @@
 
 html {}
 body {
-  font-family: orator std;
-  /*font-family: Helvetica, Arial, sans-serif;*/
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  color: black;
   padding-bottom: 40px;
 }
 
@@ -18,6 +20,40 @@ ul {
 p {
   margin: 50px 50px 50px 50px;
 }
+/* ------------ helpers ------------ */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.font-bold {
+  font-weight: 800;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ------------ nav ------------ */
+.navbar {
+  margin: 0px;
+}
+.navbar-toggle {
+  background-color: darkgrey;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+
 
 /* ------------ home ------------ */
 #home {
@@ -30,12 +66,41 @@ p {
   border: 1px solid #f7f7f7;
 }
 #home .img-block div {
-  height: 300px;
+  height: 250px;
   background-size: cover;
 
 }
 
+.home-images-container .container {
+  /*margin: 0px 20px 0px 20px;*/
+}
+
 #home .img-block a {
+  display: block;
+  height: 250px;
+}
+
+.main-image {
+  overflow:hidden;
+  width: 100%;
+  height:450px;
+}
+.main-image > img {
+  margin-top: -200px;
+  width: 100%;
+}
+
+.links-container  ul {
+  margin-left: :0px;
+}
+.links-container  ul li {
+  margin-top: 20px;
+  display: inline-block;
+
+}
+
+.links-container  ul li a {
+  padding: 15px 20px 15px 20px;
   display: block;
 
 }
@@ -65,6 +130,8 @@ p {
 /* ------------------------- */
 .home-images-container {
   padding: 20px 0;
+  max-width: 60%;
+  max-height: 60%;
 }
 
 /* ------------ portfolio ------------ */
@@ -132,6 +199,31 @@ p {
 .packery .item.w2.h2 {
   width: 320px;
 }
+/* ------------ A ------------ */
+a {
+  color: black;
+}
+/* unvisited link */
+a:link {
+    color:black ;
+}
+
+/* visited link */
+a:visited {
+    color: ;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+
+    color: lightgrey;
+}
+
+/* selected link */
+a:active {
+    color: ;
+}
 
 /* ------------ Banner ------------ */
 .banner {
@@ -175,4 +267,112 @@ p {
 
 #cboxClose {
   top: 0;
+  background: url("vendor/images/closebutton.png")
+}
+
+#cboxClose:hover {
+      background-position: 25px 25px;
+}
+
+/* ------------ overlay ------------ */
+.shoe  {
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+}
+
+.shoe:hover a {
+  opacity: 0.3;
+}
+.shoe:hover .shoe-text {
+  visibility: visible;
+  opacity: 1.0;
+}
+
+.shoe a {
+  padding: 0;
+  width: 100%;
+  display: block;
+  opacity: 1;
+}
+
+.shoe a,
+.shoe-text {
+  -webkit-transition: opacity 0.1s ease-out;
+  -moz-transition: opacity 0.1s ease-out;
+  -o-transition: opacity 0.1s ease-out;
+  transition: opacity 0.1s ease-out;
+}
+
+.shoe-text {
+
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 1.33px;
+  position: absolute;
+  color: white;
+  left: 0;
+  top: 25%;
+  right: 0;
+  bottom: 0;
+  font-size: 24px;
+  text-align: center;
+  opacity: 0;
+  margin: none;
+}
+
+.shoe-text p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.shoe-text h4 {
+  font-family: OpenSans-Bold;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+
+
+
+/* ------------ iPhone screen ------------ */
+
+@media only screen and (max-width : 320px) {
+
+  .main-image> img {
+    height: auto;
+    width: 320px;
+    margin: auto;
+  }
+
+  .main-image {
+    overflow:none;
+    width: 100%;
+    height:auto;
+  }
+
+  .links-container  ul {
+    margin-left: :0px;
+  }
+  .links-container  ul li {
+    margin-top: 20px;
+    display: inline-block;
+
+  }
+
+  .links-container  ul li a {
+    padding: 15px 20px 15px 20px;
+    display: none;
+
+  }
+
+@media only screen and (max-width : 750px) {
+
+.main-image > img {
+  margin-top:none;
+}
+  /*.links-container ul li a {
+    display: none;
+  }
+
 }
