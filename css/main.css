@@ -20,6 +20,8 @@ ul {
 p {
   margin: 50px 50px 50px 50px;
 }
+
+.selector:not(*:root) {}
 /* ------------ helpers ------------ */
 
 .uppercase {
