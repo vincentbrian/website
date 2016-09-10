@@ -353,20 +353,16 @@ a:active {
     height:auto;
   }
 
-  /*.links-container  ul {
-    margin-left: :0px;
-  }
-  .links-container  ul li {
-    margin-top: 20px;
-    display: inline-block;
-
-  }*/
+.links-container {
+  display: none;
+}
 
   .links-container  ul li a {
     padding: 15px 20px 15px 20px;
     display: none;
 
   }
+
 
   .selector:not(*:root) {}
 
