@@ -347,7 +347,7 @@ a:active {
     margin: auto;
   }*/
 
-  /*.main-image >img{
+  .main-image >img{
     overflow:none;
     width: 100%;
 
@@ -364,39 +364,10 @@ a:active {
   }
 
 
-  .selector:not(*:root) {}*/
+  .selector:not(*:root) {}
 
 @media only screen and (max-width : 750px) {
 
 .main-image > img {
   margin-top:none;
-}
-@media only screen and (max-width : 400px) {
-
-  .main-image> img {
-    height: auto;
-    width: 100%;
-    margin: auto;
-  }
-
-  .main-image {
-    overflow:none;
-    width: 100%;
-    height:auto;
-  }
-
-.links-container {
-  display: none;
-}
-
-  .links-container  ul li a {
-    padding: 15px 20px 15px 20px;
-    display: none;
-
-  }
-
-  /*.links-container ul li a {
-    display: none;
-  }
-
 }
