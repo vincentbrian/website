@@ -341,13 +341,13 @@ a:active {
 
 @media only screen and (max-width : 400px) {
 
-  .main-image> img {
+  /*.main-image> img {
     height: auto;
     width: 100%;
     margin: auto;
-  }
+  }*/
 
-  .main-image {
+  .main-image img{
     overflow:none;
     width: 100%;
     height:auto;
@@ -366,7 +366,7 @@ a:active {
 
   .selector:not(*:root) {}
 
-/*@media only screen and (max-width : 750px) {*/
+@media only screen and (max-width : 750px) {
 
 .main-image > img {
   margin-top:none;
