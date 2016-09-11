@@ -364,7 +364,7 @@ a:active {
   }
 
 
-  /*.selector:not(*:root) {}*/
+  .selector:not(*:root) {}
 
 /*@media only screen and (max-width : 750px) {*/
 
