@@ -20,6 +20,8 @@ ul {
 p {
   margin: 50px 50px 50px 50px;
 }
+
+.selector:not(*:root) {}
 /* ------------ helpers ------------ */
 
 .uppercase {
@@ -83,7 +85,7 @@ p {
 .main-image {
   overflow:hidden;
   width: 100%;
-  height:450px;
+  height:auto;
 }
 .main-image > img {
   margin-top: -200px;
@@ -336,29 +338,19 @@ a:active {
 
 
 /* ------------ iPhone screen ------------ */
+@media only screen and (max-device-width: 400px){
 
-@media only screen and (max-width : 320px) {
-
-  .main-image> img {
-    height: auto;
-    width: 320px;
-    margin: auto;
-  }
-
-  .main-image {
-    overflow:none;
+  .main-image >img{
+    overflow:hidden;
     width: 100%;
-    height:auto;
-  }
-
-  .links-container  ul {
-    margin-left: :0px;
-  }
-  .links-container  ul li {
-    margin-top: 20px;
-    display: inline-block;
+    height: auto;
+    margin: 0px;
 
   }
+
+.links-container {
+  display: none;
+}
 
   .links-container  ul li a {
     padding: 15px 20px 15px 20px;
@@ -366,13 +358,36 @@ a:active {
 
   }
 
+
+  .selector:not(*:root) {}
+
+}
+
 @media only screen and (max-width : 750px) {
 
-.main-image > img {
+/*.main-image  {
   margin-top:none;
+  width: 100%;
+  height: auto;
 }
-  /*.links-container ul li a {
+
+
+  .main-image >img{
+    overflow:none;
+    width: 100%;
+
+  }*/
+
+.links-container {
+  display: none;
+}
+
+  .links-container  ul li a {
+    padding: 15px 20px 15px 20px;
     display: none;
+
   }
 
-}
+
+  .selector:not(*:root) {}
+  }
