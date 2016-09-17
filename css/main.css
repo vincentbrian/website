@@ -363,25 +363,18 @@ a:active {
 
 }
 
-@media only screen and (max-width : 750px) {
-
-/*.main-image  {
-  margin-top:none;
-  width: 100%;
-  height: auto;
-}
-
+@media only screen and (max-device-width: 750px){
 
   .main-image >img{
-    overflow:none;
+    overflow:hidden;
     width: 100%;
+    height: auto;
+    margin: 0px;
 
-  }*/
+  }
 
 .links-container {
   display: none;
-
-
 }
 
   .links-container  ul li a {
@@ -392,7 +385,8 @@ a:active {
 
 
   .selector:not(*:root) {}
-  }
+
+}
 
   @media only screen and (max-device-width: 1080px){
 
