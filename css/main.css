@@ -381,7 +381,7 @@ a:active {
 .links-container {
   display: none;
 
-  
+
 }
 
   .links-container  ul li a {
@@ -392,4 +392,29 @@ a:active {
 
 
   .selector:not(*:root) {}
+  }
+
+  @media only screen and (max-device-width: 1080px){
+
+    .main-image >img{
+      overflow:hidden;
+      width: 100%;
+      height: auto;
+      margin: 0px;
+
+    }
+
+  .links-container {
+    display: none;
+  }
+
+    .links-container  ul li a {
+      padding: 15px 20px 15px 20px;
+      display: none;
+
+    }
+
+
+    .selector:not(*:root) {}
+
   }
