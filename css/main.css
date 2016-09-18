@@ -58,7 +58,7 @@ p {
 
 
 /* ------------ home ------------ */
-#home {
+/*#home {
   text-align: center;
 }
 #home .home-header {
@@ -68,10 +68,10 @@ p {
   border: 1px solid #f7f7f7;
 }
 #home .img-block div {
-  height: 250px;
+  /*height: 250px;*/
   background-size: cover;
 
-}
+}*/
 
 .home-images-container .container {
   /*margin: 0px 20px 0px 20px;*/
