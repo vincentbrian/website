@@ -41,6 +41,10 @@ li > a:hover {
   color: #000;
 }
 
+li > a:active {
+  color: #000;
+}
+
 li > a:before {
   content: "";
   position: absolute;
