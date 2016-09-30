@@ -22,7 +22,9 @@ p {
 }
 
 .selector:not(*:root) {}
-/* ------------ helpers ------------ */
+
+/*<--------------- underline ----------------->*/
+
 .underline:hover {
   background: transparent;
   border-radius: 10px;
@@ -30,7 +32,11 @@ p {
 
   box-shadow: 0 55px 0 0 #000;
 }
-/*<--------------- underline ----------------->*/
+
+.bottom-line {
+      border-bottom: 1px solid #C7CDD1;
+  }
+
 li > a {
   position: relative;
   color: #000;
