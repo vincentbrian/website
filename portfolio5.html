@@ -7,14 +7,49 @@
   <!-- Vendor CSS -->
   <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
   <link href="css/vendor/colorbox.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <nav id="header" class="navbar navbar-inverse">
+
+  <!------------ top nav ----------------------->
+<nav id="header" class="navbar navbar">
+<div class="container-fluid">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">Vincent</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+
+          <li><a href="index.html">home </a></li>
+          <li><a href="portfolio.html">portfolio </a></li>
+          <li><a href="about.html">about </a></li>
+          <li><a href="projects.html">projects </a></li>
+          <li><a class="email" href="mailto:vincentbrian.design@gmail.com">contact</a></li>
+
+      </li>
+    </ul>
+
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<!------------ end of top nav ----------------------->
+  <!-- <nav id="header" class="navbar navbar-inverse">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -25,7 +60,7 @@
       <a class="navbar-brand" href="index.html">Vincent</a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
+
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="dropdown">
@@ -40,8 +75,7 @@
             <li><a href="portfolio3.html">Graphite</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="portfolio4.html">Anatomy</a></li>
-            <!-- <li role="separator" class="divider"></li>
-            <li><a href="portfolio5.html">City Scape</a></li> -->
+
             <li role="separator" class="divider"></li>
             <li><a href="portfolio6.html">Shoes</a></li>
           </ul>
@@ -54,43 +88,106 @@
 
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    </div>
+  </div>
+</nav> -->
 
-  <div id="home">
-    <div class="banner">
-      <h1>city</h1>
+
+    <div class="main-image ">
+      <img src="images/newyork.jpg">
     </div>
 
-    <div class="container">
-      <div class="img-blocks">
-        <div class="row">
-          <div class="img-block col-sm-3">
-            <a href="images/chicago.jpg"  style="background-image: url('imageSmall/chicago.jpg')">
-            </a>
-          </div>
-          <div class="img-block col-sm-3">
-            <a href="images/boston_prudential_view.jpg"  style="background-image: url('imageSmall/boston_prudential_view.jpg')">
-            </a>
-          </div>
-          <div class="img-block col-sm-3">
-            <a href="images/bostonpaint2.jpg"  style="background-image: url('imageSmall/bostonpaint2.jpg')">
-            </a>
-          </div>
-          <div class="img-block col-sm-3">
-            <a href="images/BostonStrong.jpg"  style="background-image: url('imageSmall/BostonStrong.jpg')">
-            </a>
-          </div>
-          <div class="img-block col-sm-3">
-            <a href="images/thepru.jpg"  style="background-image: url('imageSmall/thepru.jpg')">
-            </a>
-          </div>
-          <div class="img-block col-sm-3">
-            <a href="images/newyork.jpg"  style="background-image: url('imageSmall/newyork.jpg')">
-            </a>
-          </div>
 
+  <div class="links-container">
+    <ul class="text-center">
+      <li><a href="index.html">All</a></li>
+
+      <li><a href="portfolio1.html">Celebrities</a></li>
+
+      <li><a href="portfolio2.html">Paint</a></li>
+
+      <li><a href="portfolio3.html">Graphite</a></li>
+
+      <li><a href="portfolio4.html">Anatomy</a></li>
+
+      <li><a href="portfolio5.html">City Scape</a></li>
+
+      <li><a href="portfolio6.html">Shoes</a></li>
+    </ul>
+  </div>
+
+  <div id="home">
+    <div class="home-images-container container">
+      <div class="col-lg-4 col-md-4 col-sm-6 img-block">
+        <div class="shoe">
+        <a href="images/chicago.jpg"  style="background-image: url('imageSmall/chicago.jpg')">
+        </a>
+        <div class="shoe-text">
+          <h4>Chicago</h4>
+          <p>Illustrator, 2014</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 img-block">
+        <div class="shoe">
+        <a href="images/boston_prudential_view.jpg"  style="background-image: url('imageSmall/boston_prudential_view.jpg')">
+        </a>
+        <div class="shoe-text">
+          <h4>Back Bay View</h4>
+          <p>Illustrator, 2014</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 img-block">
+        <div class="shoe">
+        <a href="images/bostonpaint2.jpg"  style="background-image: url('imageSmall/bostonpaint2.jpg')">
+        </a>
+        <div class="shoe-text">
+          <h4>Boston Color</h4>
+          <p>Photoshop, 2012</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 img-block">
+        <div class="shoe">
+          <a href="images/BostonStrong.jpg"  style="background-image: url('imageSmall/BostonStrong.jpg')">
+        </a>
+        <div class="shoe-text">
+          <h4>Boston Strong</h4>
+          <p>Illustrator, 2015</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 img-block">
+        <div class="shoe">
+        <a href="images/Prudential_Sky.jpg"  style="background-image: url('imageSmall/Prudential_Sky.jpg')">
+        </a>
+        <div class="shoe-text">
+          <h4>Prudential Sky</h4>
+          <p>Illustrator, 2015</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 img-block">
+        <div class="shoe">
+        <a href="images/thepru.jpg"  style="background-image: url('imageSmall/thepru.jpg')">
+        </a>
+        <div class="shoe-text">
+          <h4>Prudential Building Color</h4>
+          <p>Photoshop, 2016</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 img-block">
+        <div class="shoe">
+        <a href="images/newyork.jpg"  style="background-image: url('imageSmall/newyork.jpg')">
+        </a>
+        <div class="shoe-text">
+          <h4>New York Skyline</h4>
+          <p>Photoshop, 2016</p>
+        </div>
+      </div>
+      </div>
 
 
 
@@ -103,7 +200,7 @@
       $('.img-block a').colorbox({
         maxWidth: '80%',
         maxHeight: '80%',
-        opacity: '0.9',
+        opacity: '0.6',
       });
     });
 
