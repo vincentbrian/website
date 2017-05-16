@@ -185,13 +185,23 @@ li > a:hover:before {
   max-width: 60%;
   max-height: 60%;
 }
-
 /* ------------ portfolio ------------ */
 
 #portfolio {
   text-align: center;
 }
 #portfolio .portfolio-header {
+  text-align: center;
+}
+
+/* ------------ projects ------------ */
+
+#projects {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#projects .portfolio-header {
   text-align: center;
 }
 
