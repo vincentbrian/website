@@ -196,12 +196,16 @@ li > a:hover:before {
 
 /* ------------ projects ------------ */
 
-#projects {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.projects {
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
   text-align: center;
 }
-#projects .portfolio-header {
+.projects h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.projects .portfolio-header {
   text-align: center;
 }
 
