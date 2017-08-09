@@ -9,9 +9,9 @@ body {
   padding-bottom: 40px;
 }
 
-h3 {
+/*h3 {
   margin-top: 20px;
-}
+}*/
 
 ul {
   margin: 0px;
@@ -431,7 +431,7 @@ a:active {
 
 }
 
-@media only screen and (max-device-width: 750px){
+/*@media only screen and (max-device-width: 750px){*/
 
   .main-image >img{
     overflow:hidden;
