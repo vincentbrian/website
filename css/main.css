@@ -9,9 +9,9 @@ body {
   padding-bottom: 40px;
 }
 
-/*h3 {
-  margin-top: 20px;
-}*/
+h3 {
+  margin-bottom:20px;
+}
 
 ul {
   margin: 0px;
@@ -205,10 +205,7 @@ li > a:hover:before {
   padding-bottom: 10px;*/
   text-align: center;
 }
-.projects h3 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+.projects
 .projects .portfolio-header {
   text-align: center;
 }
@@ -235,8 +232,7 @@ li > a:hover:before {
 
 /* ------------------------- */
 .iframe {
-  margin-left: auto ;
-  margin-right: auto ;
+
 }
 
 /* ------------ Header ------------ */
