@@ -234,8 +234,14 @@ li > a:hover:before {
 }
 
 /* ------------------------- */
-
-
+.iframe {
+  text-align: center;
+   width: 100%;
+   vertical-align: middle;
+   height: 100%;
+   display: table-cell;
+}
+height="300" width="600" align="middle"
 /* ------------ Header ------------ */
 
 #header {
@@ -431,7 +437,7 @@ a:active {
 
 }
 
-/*@media only screen and (max-device-width: 750px){*/
+@media only screen and (max-device-width: 750px){
 
   .main-image >img{
     overflow:hidden;
