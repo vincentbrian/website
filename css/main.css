@@ -199,9 +199,12 @@ li > a:hover:before {
 }
 
 /* ------------ projects ------------ */
+.container {
+  
+}
 
 .projects {
-  float: left;
+
   /*padding-top: 10px;
   padding-bottom: 10px;*/
   text-align: center;
