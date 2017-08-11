@@ -12,6 +12,9 @@ body {
 h3 {
   margin-bottom:20px;
 }
+h4 {
+  margin-bottom: 20px;
+}
 
 ul {
   margin: 0px;
@@ -200,7 +203,7 @@ li > a:hover:before {
 
 /* ------------ projects ------------ */
 .container {
-  
+
 }
 
 .projects {
