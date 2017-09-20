@@ -22,9 +22,7 @@ p {
   margin: 50px 50px 50px 50px;
 }
 
-a .top {
-  text-align: center;
-}
+
 
 .selector:not(*:root) {}
 
@@ -162,9 +160,6 @@ li > a:hover:before {
 
 }
 
-.botttom-link {
-  text-align: center;
-}
 
 /* ------------------------- */
 
