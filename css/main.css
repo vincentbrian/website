@@ -8,9 +8,11 @@ body {
   color: black;
   padding-bottom: 40px;
 }
+h4 {
 
+}
 h3 {
-  margin-bottom:20px;
+
 }
 
 
@@ -95,6 +97,10 @@ li > a:hover:before {
 
 .text-center {
   text-align: center;
+}
+
+.space h3, h4 {
+  margin: 20px 0;
 }
 
 /* ------------ nav ------------ */
@@ -310,7 +316,8 @@ a:active {
   display: inline-block;
   text-align: center;
   padding: 0 15px 15px;
-  margin-bottom: 30px;
+  margin: 15px auto;
+    /*margin: 15px auto;*/
 }
 
 /* ------------ Colorbox ------------ */
