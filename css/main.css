@@ -78,6 +78,9 @@ li > a:hover:before {
   transform: scaleX(1);
 }
 /*<--------------- helpers ----------------->*/
+.top-line {
+      border-top: 1px solid #C7CDD1;
+  }
 
 .uppercase {
   text-transform: uppercase;
