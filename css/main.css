@@ -105,6 +105,10 @@ li > a:hover:before {
 .space h3, h4 {
   margin: 20px 0;
 }
+.container-narrow {
+  max-width: 600px;
+  margin:20px auto;
+}
 
 /* ------------ nav ------------ */
 .navbar {
@@ -155,7 +159,7 @@ li > a:hover:before {
 }
 
 .links-container  ul {
-  margin-left: :0px;
+  margin-left:0px;
 }
 .links-container  ul li {
   margin-top: 20px;
@@ -168,7 +172,28 @@ li > a:hover:before {
   display: block;
 
 }
+.footer ul {
 
+  padding: 0px;
+  margin:0;
+}
+.footer ul li {
+
+  display: inline-block;
+
+}
+
+.footer ul li a {
+  float: left;
+  height: 50px;
+  padding: 15px 20px 15px 20px;
+  display: block;
+
+}
+
+.footer ul li a .github-icon {
+  padding-top: 12px;
+}
 
 /* ------------------------- */
 
@@ -214,13 +239,14 @@ li > a:hover:before {
 
 .projects {
 
-  /*padding-top: 10px;
-  padding-bottom: 10px;*/
   text-align: center;
 }
 .projects
 .projects .portfolio-header {
   text-align: center;
+}
+.projects-paragraph {
+
 }
 
 /* ------------ Img Block ------------ */
