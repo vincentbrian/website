@@ -115,13 +115,18 @@ li > a:hover:before {
   margin: 0px;
 }
 .navbar-toggle {
-  background-color: darkgrey;
+  /*background-color: darkgrey;*/
+  background-color: white;
+  border-color: black;
 }
 
 .navbar-toggle .icon-bar {
-  background-color: white;
+  /*background-color: white;*/
+  background-color: black;
 }
-
+/*.navbar-vertical-align {
+  border: 1px solid rgb(255, 0, 0);
+}*/
 
 /* ------------ home ------------ */
 /*#home {
