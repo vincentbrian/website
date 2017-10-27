@@ -237,6 +237,9 @@ li > a:hover:before {
 
 }
 
+.small {
+  display: none;
+}
 .projects {
 
   text-align: center;
@@ -471,6 +474,12 @@ a:active {
 }
 
 @media only screen and (max-device-width: 750px){
+  .big {
+    display: none;
+  }
+  .small {
+    display: inline-block;
+  }
 
   .main-image >img{
     overflow:hidden;
