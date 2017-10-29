@@ -241,7 +241,9 @@ li > a:hover:before {
 .container {
 
 }
-
+.p-5 {
+  padding: 50px;
+}
 .small {
   display: none;
 }
@@ -479,6 +481,9 @@ a:active {
 }
 
 @media only screen and (max-device-width: 750px){
+  .p-5 {
+    padding: 0px;
+  }
   .big {
     display: none;
   }
