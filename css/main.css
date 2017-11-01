@@ -499,7 +499,7 @@ a:active {
 
 @media only screen and (max-device-width: 750px){
   #jake-book {
-    border-right: : :none;
+    border-right:none;
   }
   .big {
     display: none;
