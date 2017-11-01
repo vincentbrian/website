@@ -238,10 +238,29 @@ li > a:hover:before {
 }
 
 /* ------------ projects ------------ */
+#books {
+  margin: 20px auto;
+}
+#websites {
+  margin: 20px auto;
+}
+#jake-book {
+  border-right:1px solid #000;
+}
 .container {
 
 }
+.book {
+  padding-top: 50px;
+  float: left;;
+}
+.book-img {
+  width: 250px;
 
+}
+.book-text {
+  display: block;
+}
 .small {
   display: none;
 }
@@ -479,6 +498,9 @@ a:active {
 }
 
 @media only screen and (max-device-width: 750px){
+  #jake-book {
+    border-right: : :none;
+  }
   .big {
     display: none;
   }
