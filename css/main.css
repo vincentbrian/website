@@ -177,6 +177,10 @@ li > a:hover:before {
   display: block;
 
 }
+
+.footer {
+  margin-top: 50px;
+}
 .footer ul {
 
   padding: 0px;
