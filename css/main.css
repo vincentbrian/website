@@ -252,6 +252,8 @@ li > a:hover:before {
   border-right:1px solid #000;
 }
 .container {
+  margin-left: none;
+  margin-right: none;
 
 }
 .book {
