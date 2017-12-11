@@ -245,8 +245,9 @@ li > a:hover:before {
 #books {
   margin: 20px auto;
 }
-#websites {
-  margin: 20px auto;
+#websites .p-5 img{
+  width: 100%;
+  /*margin: : 20px auto;*/
 }
 #jake-book {
   border-right:1px solid #000;
@@ -503,7 +504,8 @@ a:active {
 
 }
 
-@media only screen and (max-device-width: 750px){
+/*@media only screen and (max-device-width: 750px){*/
+  @media only screen and (max-device-width: 992px){
   #jake-book {
     border-right:none;
   }
@@ -512,7 +514,13 @@ a:active {
   }
   .small {
     display: inline-block;
+
   }
+  .small img {
+    width: 100%;
+
+  }
+
 
   .main-image >img{
     overflow:hidden;
