@@ -21,7 +21,7 @@ ul {
 }
 
 p {
-  margin: 50px 50px 50px 50px;
+  margin: 50px 0px 50px 0px;
 }
 
 
@@ -244,13 +244,20 @@ li > a:hover:before {
 /* ------------ projects ------------ */
 #books {
   margin: 20px auto;
+} #websites p {
+  /* padding: 50px 0px; */
 }
-#websites .p-5 img{
-  width: 100%;
+#websites .p-5 img {
+
   /*margin: : 20px auto;*/
 }
 #jake-book {
-  border-right:1px solid #000;
+  /* border-right:1px solid #000;
+  border-bottom: none; */
+}
+
+.text {
+  padding:10% 0%;
 }
 .container {
   margin-left: none;
@@ -504,11 +511,13 @@ a:active {
 
 }
 
+#jake-book {
+  /* border-bottom :1px solid #000; */
+}
+
 /*@media only screen and (max-device-width: 750px){*/
   @media only screen and (max-device-width: 992px){
-  #jake-book {
-    border-right:none;
-  }
+
   .big {
     display: none;
   }
@@ -549,6 +558,10 @@ a:active {
 
 }
 
+#jake-book {
+  /* border-bottom:1px solid #000; */
+}
+
   @media only screen and (max-device-width: 1080px){
 
     .main-image >img{
@@ -576,4 +589,9 @@ a:active {
 
     .selector:not(*:root) {}
 
+  }
+
+  #jake-book {
+    /* border-bottom :1px solid #000; */
+    /* border-right: none; */
   }
