@@ -221,7 +221,9 @@ li > a:hover:before {
   background-size: cover;
 
 }
-
+.about-paragraphs p {
+  margin: 50px 80px;
+}
 #about .img-block a {
   display: block;
 }
