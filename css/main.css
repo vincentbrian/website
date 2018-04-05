@@ -250,6 +250,7 @@ li > a:hover:before {
   /* padding: 50px 0px; */
 }
 #websites .p-5 img {
+  max-width: 100%;
 
   /*margin: : 20px auto;*/
 }
