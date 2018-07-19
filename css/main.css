@@ -92,7 +92,7 @@ li > a:hover:before {
 
 .font-bold {
   font-weight: 800;
-}
+
 
 .font-thin {
   font-weight: 100;
@@ -164,7 +164,7 @@ li > a:hover:before {
 }
 
 .links-container  ul {
-  margin-left:0px;
+  padding-left:0px;
 }
 .links-container  ul li {
   margin-top: 20px;
