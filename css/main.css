@@ -111,22 +111,12 @@ li > a:hover:before {
 }
 
 /* ------------ nav ------------ */
-.navbar {
-  margin: 0px;
+ .navbar-toggle .collapsed .icon-bar {
+    background: black !important;
 }
-.navbar-toggle {
-  /*background-color: darkgrey;*/
-  background-color: white;
-  border-color: transparent;
+button .icon-bar {
+  background: black;
 }
-
-.navbar-toggle .icon-bar {
-  /*background-color: white;*/
-  background-color: #616060;
-}
-/*.navbar-vertical-align {
-  border: 1px solid rgb(255, 0, 0);
-}*/
 
 /* ------------ home ------------ */
 /*#home {
