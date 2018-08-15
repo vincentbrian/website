@@ -223,6 +223,7 @@ button .icon-bar {
 .artist-statement {
   background-color: lightgrey;
   color: white;
+  padding:20px;
 }
 
 /* ------------------------- */
