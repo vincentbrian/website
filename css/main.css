@@ -112,12 +112,15 @@ li > a:hover:before {
 
 /* ------------ nav ------------ */
  .navbar-toggle .collapsed .icon-bar {
-    background: black !important;
+    background-color: black !important;
 }
 button .icon-bar {
-  background: black;
+  background-color: black;
 }
-
+.cover-image {
+  width: 100%;
+  height: 250px;
+}
 /* ------------ home ------------ */
 /*#home {
   text-align: center;
