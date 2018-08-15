@@ -220,6 +220,10 @@ button .icon-bar {
 #about .img-block a {
   display: block;
 }
+.artist-statement {
+  background-color: lightgrey;
+  color: white;
+}
 
 /* ------------------------- */
 .home-images-container {
